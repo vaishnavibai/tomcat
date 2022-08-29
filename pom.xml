@@ -16,14 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-  <pluginManagement>
-    <plugins>
-      <plugin>
-        <artifactID>maven-war-plugin</artifactID>
-        <version>3.2.2</version>
-      </plugin>
-    </plugins>
-  </pluginManagement>
     <finalName>samplewebapp</finalName>
   </build>
 </project>
