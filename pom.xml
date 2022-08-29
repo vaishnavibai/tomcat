@@ -16,6 +16,14 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>samplewebapp</finalName>
+    <finalName>tomcat-demo</finalName>
+    <pluginManagement>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactID>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </pluginManagement>
   </build>
 </project>
